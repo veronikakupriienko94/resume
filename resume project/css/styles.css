@@ -22,7 +22,7 @@ ul, ol {
   background: #ffffff;
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
