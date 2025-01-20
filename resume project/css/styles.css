@@ -7,6 +7,12 @@ body{
   font-family: "Montserrat", sans-serif;
 }
 
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+
 ul, ol {
   margin-top: 0;
   margin-bottom: 0;
@@ -256,3 +262,4 @@ line-height: 24px;
 .education {
   margin-top: 40px;
 }
+
