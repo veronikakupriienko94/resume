@@ -1,3 +1,10 @@
+.container{
+  width: 100%;
+  max-width: 1240px ;
+  margin: 0 auto;
+  padding: 24px;
+}
+
 body{
   background: #f6f6fa;
   padding-left: 40px;
@@ -5,12 +12,8 @@ body{
   padding-right: 40px;
   padding-bottom: 40px;
   font-family: "Montserrat", sans-serif;
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
+  margin: 0;
+  overflow-x: hidden;
 }
 
 ul, ol {
@@ -23,7 +26,9 @@ ul, ol {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  max-width: 1240px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .main-content{
@@ -39,7 +44,7 @@ ul, ol {
   padding-top: 40px;
   padding-bottom: 40px;
   box-sizing: border-box;
-  width: 370px;
+  width: 370px; 
 }
 
 .sidebar-content {
@@ -47,6 +52,12 @@ ul, ol {
   padding-top: 40px;
   padding-right: 40px;
   box-sizing: border-box;
+}
+
+.sidebar img {
+  width: 100%;
+  max-width: 370px;
+  height: auto;
 }
 
 .contacts-title {
@@ -194,6 +205,10 @@ font-weight: 400;
 line-height: 24px;
 }
 
+.my-project-item-link:hover {
+  color: #000000;
+}
+
 .my-project-item-tech{
 color: #595959;
 font-size: 14px;
@@ -262,4 +277,3 @@ line-height: 24px;
 .education {
   margin-top: 40px;
 }
-
